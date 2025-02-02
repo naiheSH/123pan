@@ -19,7 +19,7 @@
 ## 使用方法
 
 **运行python脚本。**
-**非python版本已发布，详见[发行版](https://github.com/naiheSH/123)**
+- **非python版本已发布，详见[发行版](https://github.com/naiheSH/123)**
 
 ### 脚本运行
 #### 环境准备
