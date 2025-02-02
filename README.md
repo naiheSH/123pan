@@ -1,4 +1,6 @@
 # 123云盘 下载工具
+## 发行版
+https://github.com/naiheSH/123
 
 ## 项目介绍
 #### 1.下载工具
@@ -24,7 +26,7 @@
 
 ### 直接运行
 
-Windows用户下载123pan_win_x86_64.zip，解压后直接运行android.exe。
+Windows用户下载123pan_win_x86_64.zip，解压后直接运win.exe
 
 ### 脚本运行
 #### 环境准备
@@ -188,41 +190,6 @@ Windows用户下载123pan_win_x86_64.zip，解压后直接运行android.exe。
 ### 配置文件说明
 
 在首次运行脚本时，会自动生成一个 `123pan.txt` 文件，用于保存用户的登录信息。请确保该文件与脚本在同一目录下。
-# 二、123云盘辅助下载脚本
-## 功能
-不影响网页端的操作下，绕开流量限制，可以直接点击下载
-（文件夹打包仍无法不限流量下载,文件夹请使用下载工具下载）
-
-## 安装方法
-## 1.通过油叉安装（推荐）
-### 下载油猴扩展
-
-进入谷歌浏览器或edge浏览器扩展商店，搜索“篡改猴”，安装：<br>
-![image](https://github.com/user-attachments/assets/88ea4392-7f09-432c-a8d4-06f63781a8ed)
-
-### 安装脚本<br>
-打开篡改猴，点击获取新脚本：<br>
-
-![image](https://github.com/user-attachments/assets/5a874ebb-2e5d-423b-9200-9addaeaa32a7)
-
-### 进入油叉：<br>
-
-![image](https://github.com/user-attachments/assets/05a1cd0a-ef40-45db-9367-3136e4b7262c)
-
-### 搜索```123云盘下载辅助```:<br>
-![image](https://github.com/user-attachments/assets/6b8a5d08-6e8b-404a-a993-8474f85cdb04)<br>
-### 安装：<br>
-![image](https://github.com/user-attachments/assets/42cc5908-e29e-4ed8-852e-83ee59540bfb)<br>
-<br>
-![image](https://github.com/user-attachments/assets/3d1c07e6-19dd-4474-bde3-121b493803b8)<br>
-![image](https://github.com/user-attachments/assets/788454f3-e8a6-4597-9c67-9a585478dbe7)
-
-
-### 安装完成后即可进入123云盘官网不限速下载：
-![image](https://github.com/user-attachments/assets/0a83df5c-c95d-4fa7-804d-e714b78c5a14)
-
-## 2.直接安装
-下载本仓库的123download.js，安装进油猴即可，具体方法不再详述，请自行搜索。
 
 # 注意事项
 
