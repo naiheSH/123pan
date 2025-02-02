@@ -39,21 +39,21 @@ class Pan123:
             self.password = pass_word
             self.authorization = authorization
         self.header_logined = {
-            "user-agent": "123pan/v2.4.0(Android_7.1.2;Xiaomi)",
+            "user-agent": "123pan/v2.4.10(Android_15;Xiaomi)",
             "authorization": self.authorization,
             "accept-encoding": "gzip",
             # "authorization": "",
             "content-type": "application/json",
-            "osversion": "Android_7.1.2",
+            "osversion": "Android_15",
             "loginuuid": str(uuid.uuid4().hex),
             "platform": "android",
-            "devicetype": "M2101K9C",
+            "devicetype": "23127PN0CC",
             "x-channel": "1004",
             "devicename": "Xiaomi",
             # "Content-Length": "65",
             "host": "www.123pan.com",
-            "app-version": "61",
-            "x-app-version": "2.4.0"
+            "app-version": "72",
+            "x-app-version": "2.4.10"
         }
         self.parent_file_id = 0  # 路径，文件夹的id,0为根目录
         self.parent_file_list = [0]
@@ -244,7 +244,7 @@ class Pan123:
 
         return redirect_url
 
-    def download(self, file_number,download_path="download"):
+    def download(self, file_number,download_path="/storage/emulated/0/123"):
         file_detail = self.list[file_number]
         if file_detail["Type"] == 1:
             print("开始下载")
@@ -258,7 +258,7 @@ class Pan123:
         self.download_from_url(down_load_url, file_name, download_path)
 
 
-    def download_from_url(self, url, file_name, download_path="download"):
+    def download_from_url(self, url, file_name, download_path="/storage/emulated/0/123"):
         if os.path.exists(download_path+"/"+file_name):
             if self.download_mode == 4:
                 print("文件 " + file_name +"已跳过")
@@ -346,7 +346,7 @@ class Pan123:
         for i in self.dir_list:
             self.get_all_things(i)
 
-    def download_dir(self,file_detail,download_path_root="download"):
+    def download_dir(self,file_detail,download_path_root="/storage/emulated/0/123"):
         # file_detail = self.list[file_number]
         self.name_dict[file_detail["FileId"]] = file_detail["FileName"]
         if file_detail["Type"] != 1:
